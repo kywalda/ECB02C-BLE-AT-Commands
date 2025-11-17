@@ -16,7 +16,7 @@ An uncomplete collection of AT-Commands understood by the ECB02C BLE Bluetooth m
 |AT+ROLE?|Get Role (Central [Master] or Peripheral [Slave])|
 |AT+ROLE=1|Set Role 1(Central) or 2([or <> 1] Peripheral)|
 |AT+MAC?|Get device Mac Address|
-|AT+SCAN?|List available devices|
+|AT+SCAN|List available devices (works only if ROLE=1)|
 |AT+BOND?|Get connected device|
 |AT+LINK?|Get connection status|
 |AT+BONDMAC=*EC230905EBA7*|Bind to available device using its Mac address|
