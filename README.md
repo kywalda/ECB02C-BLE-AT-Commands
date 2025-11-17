@@ -13,8 +13,8 @@ An uncomplete collection of AT-Commands understood by the ECB02C BLE Bluetooth m
 |AT+VER?|Get Version|
 |AT+NAME?|Get device name|
 |AT+NAME=*MYNAME*|Set device name|
-|AT+ROLE?|Get Role (Central [Master] or Periphery [Slave])|
-|AT+ROLE=1|Set Role 1(Central) or 2([or <> 1] Periphery)|
+|AT+ROLE?|Get Role (Central [Master] or Peripheral [Slave])|
+|AT+ROLE=1|Set Role 1(Central) or 2([or <> 1] Peripheral)|
 |AT+MAC?|Get device Mac Address|
 |AT+SCAN?|List available devices|
 |AT+BOND?|Get connected device|
