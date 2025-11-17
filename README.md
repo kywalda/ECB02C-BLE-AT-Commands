@@ -22,8 +22,15 @@ An uncomplete collection of AT-Commands understood by the ECB02C BLE Bluetooth m
 |AT+BONDMAC=*EC230905EBA7*|Bind to available device using its Mac address|
 |AT+BONDNAME=*YOURNAME*|Bind to available device using its Name|
 |AT+SLEEP=*1000*|Set device to sleep for 1000 ms|
+|AT+POWE?|Get TX Power|
 |AT+POWE=*9*|Set TX Power from 0 to 9 3db steps|
-|AT+CONNOTIFY=*1*|Set device verbous 1 or silent 0|
-|AT+CONPARAM=*serial com settings*|Set communication parameters|
+|AT+MODE?|Get modus|
+|AT+MODE=*0*|Set Modus to 0(executed when AT_en-Pin), 1(AT-commands were executed other bypassed), 2(anything bypassed)|
+|AT+ECHO?|Get Echo status (0: no echo; 1: echo last command)|
+|AT+ECHO=*1*|Set Echo (0: no echo; 1: echo last command)|
+|AT+CONNOTIFY?|Get state of connection notifier 1 on or 0 off|
+|AT+CONNOTIFY=*1*|Set connection notifier 1 on or 0 off|
+|AT+CONPARAM=*0*|Set connection parameters (only in Slave Mode) 0:faster, more power; 1:slower, less power|
+|AT+PASSWORD?|Get Connection Password|
 |AT+PASSWORD=*1234*|Set Connection Password to 1234|
 |AT+PASSWORDC|Forget the password|
