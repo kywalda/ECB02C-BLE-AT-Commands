@@ -3,7 +3,7 @@ An uncomplete collection of AT-Commands understood by the ECB02C BLE Bluetooth m
 
 
 # **Bluetooth serial port module BLE5.2 ECB02C BLE AT-Commands**
-![TopView of ECB02C module](https://github.com/kywalda/ECB02C-BLE-AT-Commands/blob/main/BLE%205.2.%20Module%20ECB02C%20TopView.png)
+![TopView of ECB02C module](https://github.com/kywalda/ECB02C-BLE-AT-Commands/blob/main/BLE%205.2.%20Module%20ECB02C%20TopView_M.png)
 |Default Port Config:|115200 bps, 8, 1, 1, None, None, (DTR)|
 | :- | :- |
 |||
