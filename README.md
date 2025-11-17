@@ -26,7 +26,7 @@ An uncomplete collection of AT-Commands understood by the ECB02C BLE Bluetooth m
 |AT+POWE?|Get TX Power|
 |AT+POWE=*9*|Set TX Power from 0 to 9 3db steps|
 |AT+MODE?|Get modus|
-|AT+MODE=*0*|Set AT-Execution Mode to 0(executed when AT_en-Pin), 1(AT-commands were executed other bypassed), 2(anything bypassed)|
+|AT+MODE=*0*|Set AT-Execution Mode to 0(executed when AT_en-Pin low), 1(AT-commands were executed other bypassed), 2(anything bypassed)|
 |AT+ECHO?|Get Echo status (0: no echo; 1: echo last command)|
 |AT+ECHO=*1*|Set Echo (0: no echo; 1: echo last command)|
 |AT+CONNOTIFY?|Get state of connection notifier 1 on or 0 off|
