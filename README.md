@@ -35,3 +35,5 @@ An uncomplete collection of AT-Commands understood by the ECB02C BLE Bluetooth m
 |AT+PASSWORD?|Get Connection Password|
 |AT+PASSWORD=*1234*|Set Connection Password to 1234|
 |AT+PASSWORDC|Forget the password|
+|AT+UART?|Get UART speed (2: 9600 bps; 1: 115200 bps)|
+|AT+UART=*4*|Set UART speed to 115200 (2: 9600 bps; 4: 115200 bps)|
